@@ -1,0 +1,24 @@
+{
+  "name": "signature",
+  "description": "Simple key/secret based authentication for apis",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ursm/node-signature",
+  "author": "Keita Urashima <ursm@ursm.jp>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ursm/node-signature.git"
+  },
+  "main": "lib/signature",
+  "engines": {
+    "node": "~ 0.4.8"
+  },
+  "dependencies": {
+    "underscore": "~ 1.1.6"
+  },
+  "devDependencies": {
+    "vows": "~ 0.5.8"
+  },
+  "scripts": {
+    "test": "vows"
+  }
+}
