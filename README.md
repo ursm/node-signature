@@ -2,10 +2,6 @@
 
 Port of [mloughran/signature](https://github.com/mloughran/signature) to Node.
 
-## Install
-
-    npm install signature
-
 ## Example
 
     var signature = require('signature');
